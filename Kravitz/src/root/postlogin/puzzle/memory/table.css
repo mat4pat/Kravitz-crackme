@@ -1,0 +1,19 @@
+.noheader .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+.cell {
+    -fx-border-color: #333b3e;
+    -fx-border-width:0.25px;
+
+    -fx-background-color: #121516;
+
+    -fx-text-fill: #b9c2c6;
+    -fx-alignment: center;
+}
+
+#indexcolumn {
+    -fx-alignment: center_left;
+}

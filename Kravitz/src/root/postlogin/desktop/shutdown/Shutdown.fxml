@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: #ece9d8; -fx-border-color: red;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.postlogin.desktop.shutdown.Shutdown">
+   <children>
+      <Button ellipsisString="" layoutX="99.0" layoutY="129.0" mnemonicParsing="false" onAction="#shutdownButtonClicked" prefHeight="26.0" prefWidth="79.0" style="-fx-background-radius: 4; -fx-border-radius: 4; -fx-border-width: 0.8; -fx-border-color: #6e8ee3;" text="Shutdown">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="211.0" layoutY="129.0" mnemonicParsing="false" onAction="#cancelButtonClicked" prefHeight="26.0" prefWidth="79.0" style="-fx-background-radius: 4; -fx-border-radius: 4; -fx-border-width: 0.8; -fx-border-color: #6e8ee3;" text="Cancel">
+         <font>
+            <Font name="Segoe UI" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="37.0" fitWidth="37.0" layoutX="22.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/WindowsShutdown.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="40.0" prefHeight="45.0" prefWidth="287.0" text="Are you sure you want to shutdown?">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

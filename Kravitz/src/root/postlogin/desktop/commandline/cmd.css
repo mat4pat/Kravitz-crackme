@@ -1,0 +1,14 @@
+.text-area .content {
+    -fx-border-width: 0px;
+    -fx-background-radius: 0px;
+    -fx-background-color: #0a0c0d;
+
+}
+
+.text-area {
+    -fx-background-color: #0a0c0d;
+    -fx-border-color: #0a0c0d;
+    -fx-border-width: 5px;
+    -fx-background-radius: 5px;
+    -fx-text-fill: papayawhip;
+}
