@@ -12,6 +12,7 @@ Tips:
 
 Download the jar file:
 1. https://mega.nz/file/ukRDELDK#bSOjiu-D0yeRZSeZNqvFNOZ3PSnD8AR_znbwKeOMdZM
+2. The java version of the jar is JAVA 17
 
 Launching the jar file(two options):
 1. RECOMMENDED - right click the jar file and open as a 'Java(TM) Platform SE binary' file
